@@ -4,8 +4,8 @@ Note|Description
 :----|:----
 Initial macOS Support|macOS 10.15, Catalina.
 
-- Opencore version: 0.7.1
-- Release date: 22/07/2021
+- Opencore version: 0.7.2
+- Release date: 03/08/2021
 
 # Basic Steps
 
@@ -124,6 +124,13 @@ SMBIOS|Description
 :----|:----
 iMac20,1|i7-10700K and lower(ie. 8 core and lower).
 iMac20,2|i9-10850K and higher(ie. 10 core).
+
+# Catalina and older versions of macOS
+
+- Please configure `MinDate` and `MinVersion` in UEFI > APFS to `-1`;
+- Please configure `SecureBootModel` in Misc > Security to `j137`;
+
+\* *Without above settings, macOS will not be able to boot.*
 
 # Special notes
 
