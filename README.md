@@ -205,3 +205,6 @@ dk.e1000=0|Disables `com.apple.DriverKit-AppleEthernetE1000` (Apple's DEXT drive
 https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html
 <br>
 https://dortania.github.io/Getting-Started-With-ACPI/
+
+## Discord - Universo Hackintosh
+- [Access Discord](https://discord.universohackintosh.com.br)
