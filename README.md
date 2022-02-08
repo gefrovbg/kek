@@ -4,8 +4,8 @@ Note|Description
 :----|:----
 Initial macOS Support|macOS 10.15, Catalina.
 
-- Opencore version: 0.7.7
-- Release date: 10/01/2022
+- Opencore version: 0.7.8
+- Release date: 07/02/2022
 
 # Basic Steps
 
@@ -164,7 +164,7 @@ iMac20,2|i9-10850K and higher(ie. 10 core).
 ### GPU-Specific `boot-args`
 Parameter|Description
 :----|:----
-agdpmod=pikera|Used for disabling board ID checks on Navi GPUs(RX 5000 series), without this you'll get a black screen.<br>**Don't use if you don't have Navi** (ie. Polaris and Vega cards shouldn't use this).
+agdpmod=pikera|Used for disabling board ID checks on Navi GPUs(RX 5000 series & RX 6000 series), without this you'll get a black screen.<br>**Don't use if you don't have Navi** (ie. Polaris and Vega cards shouldn't use this).
 -wegnoegpu|Used for disabling all other GPUs than the integrated Intel iGPU, useful for those wanting to run newer versions of macOS where their dGPU isn't supported.
 
 ### Ethernet (Intel i225) `boot-args`
